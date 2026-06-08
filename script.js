@@ -219,3 +219,4 @@ function restartGame() {
 }
 restartButton.addEventListener("click", restartGame);
 playAgainButton.addEventListener("click", nextRound);
+drawBoard();

@@ -20,7 +20,7 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 8px;
-  background: #8f7a66;
+  background: #30ad60;
   color: white;
   cursor: pointer;
 }
@@ -38,11 +38,11 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 2px;
 }
 
 .cell {
-  background: #a6a0bb;
+  background: #158f64;
   border-radius: 10px;
   font-size: clamp(50px, 18vw, 90px);
   font-weight: bold;
