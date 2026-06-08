@@ -1,5 +1,3 @@
-let playerX = prompt("Nom du joueur X ?") || "Joueur X";
-let playerO = prompt("Nom du joueur O ?") || "Joueur O";
 
 const targetScoreInput = document.getElementById("target-score");
 let manchesPourGagner = Number(targetScoreInput.value) || 3;
@@ -33,9 +31,9 @@ let currentPlayer = "X";
 let gameOver = false;
 let matchFinished = false;
 
-nameXText.textContent = playerX;
-nameOText.textContent = playerO;
-statusText.textContent = `Au tour de ${playerX}`;
+nameXText.textContent = "Joueur X";
+nameOText.textContent = "Joueur O";
+statusText.textContent = `Au tour de ${nameXText.textContent}`;
 
 const winPatterns = [
   [0, 1, 2],
